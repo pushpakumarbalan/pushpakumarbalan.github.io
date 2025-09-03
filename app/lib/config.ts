@@ -1,16 +1,16 @@
 export const metaData = {
-  baseUrl: "https://researchfolio.vercel.app/",
-  title: "Researchfolio",
-  name: "You R. Name",
-  ogImage: "/opengraph-image.png",
+  baseUrl: "https://pushpakumarbalan.github.io/",
+  title: "Pushpa Kumar Balan",
+  name: "Pushpa Kumar Balan",
+  ogImage: "/profile.png",
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "Personal website and portfolio of Pushpa Kumar Balan. Research, projects, and professional services.",
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/",
-  github: "https://github.com/pushpakumarbalan/researchfolio",
-  instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "mailto:example@gmail.com",
+  twitter: "https://x.com/pushpakumrbalan",
+  github: "https://github.com/pushpakumarbalan/",
+  instagram: "https://www.instagram.com/pushpakumar02",
+  linkedin: "https://www.linkedin.com/in/pushpakumarbalan",
+  email: "mailto:pushpakumarbalan@gmail.com",
 };
