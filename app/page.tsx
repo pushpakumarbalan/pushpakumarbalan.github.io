@@ -15,17 +15,33 @@ export default function Page() {
       />
       <h1 className="mb-8 text-2xl font-medium">Pushpa Kumar Balan</h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p> I’m a Master's student in Computer Science at the University of Central Missouri, advising by <a
-        href="https://scholar.google.com/citations?user=mrnoXWYAAAAJ&hl"
-        target="_blank"
-        rel="noreferrer"
-        style={{ textDecoration: 'none', color: 'inherit' }}
->
-  Prof. Aijing Feng
-</a>, currently  working on Bioinformatics + genai. My research interests are Multimodal models (e.g. vision, language, speech), RL agents,  Gen AI and improving their inference and optimization and expanding their application in cross-disciplinary areas.         </p>
-        <p>
-          I’m open to research collaborations and happy to discuss potential projects. Feel free to reach out.
-        </p>
+          <p>
+            I’m a Master's student in Computer Science at the University of Central Missouri, advised by{' '}
+            <a
+              href="https://scholar.google.com/citations?user=mrnoXWYAAAAJ&hl"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              Prof. Aijing Feng,
+            </a> currently working on Bioinformatics + Gen AI.
+          </p>
+
+          <p>
+            My research interests include multimodal models (e.g., vision, language, and speech), RL agents, and Gen AI,
+            with a focus on improving inference, optimization, and scalability. I am interested in extending these models to
+            cross-disciplinary domains.
+          </p>
+
+          <p>
+            I’m also keen on challenges in representation learning, causal reasoning, and developing trustworthy, efficient,
+            and interpretable AI systems.
+          </p>
+
+          <p>
+            I’m open to research collaborations and happy to discuss potential projects. Feel free to reach out.
+          </p>
+
 
       </div>
       
