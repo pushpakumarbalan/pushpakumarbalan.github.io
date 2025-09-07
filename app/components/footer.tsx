@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaRss,
   FaLinkedinIn,
+  FaDiscord,
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
 import { SiGooglescholar } from "react-icons/si";
@@ -28,6 +29,7 @@ function SocialLinks() {
       <SocialLink href={socialLinks.github} icon={FaGithub} />
       <SocialLink href={socialLinks.email} icon={TbMailFilled} />
       <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
+      <SocialLink href={socialLinks.discord} icon={FaDiscord} />
       <a href="/rss.xml" target="_self">
         <FaRss />
       </a>

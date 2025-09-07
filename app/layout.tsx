@@ -5,7 +5,7 @@ import { Navbar } from "./components/nav";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
-import { ThemeProvider } from "./components/theme-switch";
+import { ThemeProvider } from "./providers/ThemeProvider";
 import { metaData } from "./lib/config";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.className}`}>
+    <html lang="en" className={`${inter.className}`} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -81,17 +81,10 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased flex flex-col items-center justify-center mx-auto mb-12">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider>
           <main className="flex-auto min-w-0 flex flex-col px-6 sm:px-4 md:px-0 max-w-[800px] w-full">
             <Navbar />
-            <div className="mt-8 mb-2">
-              {children}
-            </div>
+            <div className="mt-8 mb-2">{children}</div>
             <div className="border-t border-gray-200 dark:border-gray-700 mt-6 mb-4"></div>
             <Footer />
             <Analytics />
