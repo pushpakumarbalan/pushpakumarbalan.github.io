@@ -18,7 +18,10 @@ export default function Services() {
         <div className="mb-4">
           <ul className="list-disc pl-5">
             <li className="text-sm text-gray-700 dark:text-gray-400">
-              NeurIPS Conference Ethics Review, Datasets and Benchmarks Track Ethics Review; Workshops: SPIGM, AI4Science, ACA, AI4D3 — NeurIPS, 2025
+              AAAI-26 SAPP (Student Abstract and Poster Program) — PC Member & Reviewer, 2026
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400">
+              NeurIPS Conference Ethics Review, Datasets and Benchmarks Track Ethics Review; Workshops: SPIGM, ACA, AI4D3 — NeurIPS, 2025
             </li>
           </ul>
         </div>
