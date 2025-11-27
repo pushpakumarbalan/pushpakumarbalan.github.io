@@ -18,13 +18,20 @@ export default function Services() {
         <div className="mb-4">
           <ul className="list-disc pl-5">
             <li className="text-sm text-gray-700 dark:text-gray-400">
-              ICASSP (International Conference on Acoustics, Speech, and Signal Processing), 2026. 
-            </li>
-            <li className="text-sm text-gray-700 dark:text-gray-400">
               AAAI-26 SAPP (Student Abstract and Poster Program) — PC Member & Reviewer, 2026
             </li>
             <li className="text-sm text-gray-700 dark:text-gray-400">
               NeurIPS Conference Ethics Review, Datasets and Benchmarks Track Ethics Review; Workshops: SPIGM, ACA, AI4D3 — NeurIPS, 2025
+            </li>
+          </ul>
+        </div>
+
+        {/* Area Chair Roles */}
+        <div className="mb-6">
+          <h2 className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2">Area Chair</h2>
+          <ul className="list-disc pl-5">
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              Area Chair, Machine Learning for Signal Processing [ML] — ICASSP 2026
             </li>
           </ul>
         </div>
