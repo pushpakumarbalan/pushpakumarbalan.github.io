@@ -1,5 +1,5 @@
 export const metaData = {
-  baseUrl: "https://pushpakumarbalan.github.io/",
+  baseUrl: "https://pushpakumar.com/",
   title: "Pushpa Kumar Balan",
   name: "Pushpa Kumar Balan",
   ogImage: "/profile.png",
@@ -13,5 +13,7 @@ export const socialLinks = {
   instagram: "https://www.instagram.com/pushpakumar02",
   linkedin: "https://www.linkedin.com/in/pushpakumarbalan",
   email: "mailto:pushpakumarbalan@gmail.com",
-  discord: "https://discord.gg/XaH7ycrX"
+  discord: "https://discord.gg/XaH7ycrX",
+  scholar: "https://scholar.google.com/citations?user=4dztFgcAAAAJ&hl"
+  // https://www.semanticscholar.org/author/Pushpa-Kumar-Balan/2391811334
 };
