@@ -11,12 +11,12 @@ export const projects: Project[] = [
     title: "ResearchFolio",
     year: 2025,
     description: "Clean portfolio template for researchers and academics",
-    url: "https://pushpakumarbalan.github.io/linkedIn-job-directory/",
+    url: "https://research-folio.vercel.app/",
   },
   {
     title: "linkedIn-job-directory",
     year: 2024,
     description: "Job directory application for LinkedIn job listings",
-    url: "https://research-folio.vercel.app/",
+    url: "https://pushpakumarbalan.github.io/linkedIn-job-directory/",
   },
 ];
