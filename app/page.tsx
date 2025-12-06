@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <section>
       <Image
-        src="/profile.jpg"
+        src="/profile.png"
         alt="Profile photo"
         className="rounded-lg bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-8 sm:mb-8"
         unoptimized
