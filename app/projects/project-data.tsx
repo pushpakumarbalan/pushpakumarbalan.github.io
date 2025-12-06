@@ -17,6 +17,6 @@ export const projects: Project[] = [
     title: "linkedIn-job-directory",
     year: 2024,
     description: "Job directory application for LinkedIn job listings",
-    url: "",
+    url: "https://research-folio.vercel.app/",
   },
 ];
