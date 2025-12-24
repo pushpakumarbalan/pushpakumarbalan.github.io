@@ -41,7 +41,7 @@ export default function Page() {
           </p>
 
           <p>
-            I’m open to research collaborations and happy to discuss potential projects. Feel free to reach out.
+            I'm open to research collaborations and happy to discuss potential projects. Feel free to reach out.
           </p>
 
 

@@ -59,7 +59,9 @@ export default function Footer() {
       >
         researchfolio
       </a>{" "}
-      template. Deployed on{" "}
+      template.
+      
+      {/* Deployed on{" "}
       <a
         className="no-underline hover:underline"
         href="https://vercel.com"
@@ -75,7 +77,7 @@ export default function Footer() {
             padding-bottom: 4rem;
           }
         }
-      `}</style>
+      `}</style> */}
       <SocialLinks />
     </small>
   );
