@@ -16,7 +16,9 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium">Pushpa Kumar Balan</h1>
       <div className="prose prose-neutral dark:prose-invert">
           <p>
-            I’m a Master's student in Computer Science at the University of Central Missouri, advised by{' '}
+            I’m a second year master's student in Computer Science at the University of Central Missouri.
+            
+            {/* , advised by{' '}
             <a
               href="https://scholar.google.com/citations?user=mrnoXWYAAAAJ&hl"
               target="_blank"
@@ -24,7 +26,7 @@ export default function Page() {
               style={{ textDecoration: 'none', color: 'inherit' }}
             >
               Prof. Aijing Feng,
-            </a> currently working on Bioinformatics + Gen AI.
+            </a> currently working on Bioinformatics + Gen AI. */}
           </p>
 
           <p>
