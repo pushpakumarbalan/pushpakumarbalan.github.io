@@ -10,7 +10,7 @@ const navItems = {
   // "/blog": { name: "blog" },
   "/projects": { name: "projects" },
   "/awards": { name: "awards" },
-  "/services": { name: "service" },
+  "/services": { name: "services" },
 };
 
 export function Navbar() {
