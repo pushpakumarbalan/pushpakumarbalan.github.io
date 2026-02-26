@@ -40,9 +40,6 @@ export default function Page() {
             and interpretable AI systems.
           </p>
 
-          <p>
-            I'm open to research collaborations and happy to discuss potential projects. Feel free to reach out.
-          </p>
 
 
       </div>
