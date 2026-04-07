@@ -18,6 +18,9 @@ export default function Awards() {
         <div className="mb-4">
           <ul className="list-disc pl-5">
             <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              <strong>UCM Scholars Symposium Level I Award</strong> · University of Central Missouri · Apr 2026
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
               <strong>Graduate Student Scholarly Research Fund</strong> · UCM Graduate Studies · Dec 2025
             </li>
             <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
