@@ -16,7 +16,7 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium">Pushpa Kumar Balan</h1>
       <div className="prose prose-neutral dark:prose-invert">
           <p>
-            I’m a second year master's student in Computer Science at the University of Central Missouri.
+            I’m a new grad master's student in Computer Science.
             
             {/* , advised by{' '}
             <a
@@ -38,10 +38,6 @@ export default function Page() {
           <p>
             I’m also keen on challenges in representation learning, causal reasoning, and developing trustworthy, efficient,
             and interpretable AI systems.
-          </p>
-
-          <p>
-            I'm open to research collaborations and happy to discuss potential projects. Feel free to reach out.
           </p>
 
 

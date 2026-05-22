@@ -18,12 +18,22 @@ export default function Awards() {
         <div className="mb-4">
           <ul className="list-disc pl-5">
             <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
-              <strong>Cohere Labs Catalyst Grant</strong><br />
-              Issued by Cohere · Sep 2025
+              <strong>UCM Scholars Symposium Level I Award</strong> · University of Central Missouri · Apr 2026
             </li>
             <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
-              <strong>Graduate Assistantship Scholarship</strong><br />
-              Issued by University of Central Missouri · Aug 2025
+              <strong>Graduate Student Scholarly Research Fund</strong> · UCM Graduate Studies · Dec 2025
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              <strong>AAAI-26 Student Scholarship & Volunteer Program</strong> · AAAI · Nov 2025
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              <strong>Graduate Student Scholarly Travel Fund</strong> · UCM Graduate Studies · Nov 2025
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              <strong>Cohere Labs Catalyst Grant</strong> · Cohere · Sep 2025
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              <strong>Graduate Assistantship Scholarship</strong> · University of Central Missouri · Aug 2025
             </li>
           </ul>
         </div>

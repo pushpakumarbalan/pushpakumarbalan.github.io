@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MapMyVisitorsWidget } from "app/components/map-my-visitors";
 
 export const metadata: Metadata = {
   title: "Stats",
@@ -11,10 +12,17 @@ export default function Stats() {
       <h1 className="mb-8 text-2xl font-medium">Visitor Statistics</h1>
       
       {/* Map My Visitors Widget */}
-      <div className="mt-8">
-        <a href="https://mapmyvisitors.com/web/1c1g4" title="Visit tracker">
-          <img src="https://mapmyvisitors.com/map.png?d=EF5MZid2UwkVrhzQRhE7xuxQ9og-Bs5FWMKfJLAsakY&cl=ffffff" alt="Visitor map" />
-        </a>
+      <div className="mt-5">
+        <MapMyVisitorsWidget />
+        <noscript>
+          <a href="https://mapmyvisitors.com/web/1c1g4" title="Visit tracker">
+            <img
+              src="https://mapmyvisitors.com/map.png?d=EF5MZid2UwkVrhzQRhE7xuxQ9og-Bs5FWMKfJLAsakY&cl=ffffff"
+              alt="Visitor map"
+              className="w-full h-auto"
+            />
+          </a>
+        </noscript>
       </div>
     </section>
   );
