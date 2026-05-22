@@ -18,13 +18,13 @@ export default function Services() {
         <div className="mb-4">
           <ul className="list-disc pl-5">
             <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
-              Reviewer, ICLR Workshop AIWILD — ICLR 2026
+              Reviewer, SPIGM Workshop — ICML 2026
+            </li>
+            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
+              Reviewer, AIWILD Workshop — ICLR 2026
             </li>
             <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
               PC Member & Reviewer,  SAPP (Student Abstract and Poster Program) — AAAI 2026
-            </li>
-            <li className="text-sm text-gray-700 dark:text-gray-400 mb-2">
-               Ethics & Datasets and Benchmarks Track Ethics Review; Workshops: SPIGM, ACA, AI4D3 — NeurIPS 2025
             </li>
           </ul>
         </div>
